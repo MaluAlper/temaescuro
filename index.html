@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+}
+
+main#container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: yellow;
+    
+    
+
+}
+
+main#container > * {
+    padding: 5px;
+    background-color: pink;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p.frase {
+    text-align: center;
+}
+
+p.autor {
+    text-align: right;
+}
+
+    </style>
+</head>
+<body>
+    <main id="container">
+        <h1 class="titulo">Lorem ipsum dolor sit amet</h1>
+        <p class="frase">Tempore aspernatur nesciunt laudantium doloremque. Inventore reprehenderit porro vitae sequi! Molestiae, velit.</p>
+        <p class="autor">Asperiores voluptatibus</p>
+    </main>
+</body>
+</html>
+   
+    
